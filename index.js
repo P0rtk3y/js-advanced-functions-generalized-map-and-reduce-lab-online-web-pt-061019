@@ -15,5 +15,5 @@ function reduce(arr, fn, startingPoint){
    for (; i < arr.length; i++){
     updateStart = fn(arr[i], updateStart)
   }
-  
+  return updateStart;
 }
