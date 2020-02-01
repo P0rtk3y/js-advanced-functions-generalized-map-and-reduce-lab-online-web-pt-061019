@@ -8,5 +8,5 @@ function map(arr, fn){
 }
 
 function reduce(arr, fn, startingPoint){
-  let 
+  let total = 
 }
