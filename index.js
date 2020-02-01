@@ -8,5 +8,7 @@ function map(arr, fn){
 }
 
 function reduce(arr, fn, startingPoint){
-  let updateStart = (!!startingPoint) ? 
+  let updateStart = (!!startingPoint) ? startingPoint : arr[0]
+  
+  
 }
