@@ -12,5 +12,5 @@ function reduce(arr, fn, startingPoint){
   
   let index = (!!startingPoint) ? 0 : 1;
   
-  for
+  
 }
