@@ -7,4 +7,6 @@ function map(arr, fn){
   return newArr;
 }
 
-function reduce
+function reduce(arr, fn, startingPoint){
+  
+}
