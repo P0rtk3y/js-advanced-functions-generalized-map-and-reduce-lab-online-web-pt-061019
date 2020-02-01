@@ -12,5 +12,7 @@ function reduce(arr, fn, startingPoint){
   
   let index = (!!startingPoint) ? 0 : 1;
   
-  
+   for (; i < arr.length; i++){
+    t = func(arr[i], t)
+  }
 }
