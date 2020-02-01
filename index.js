@@ -6,3 +6,4 @@ function map(arr, fn){
   })
   return newArr;
 }
+
