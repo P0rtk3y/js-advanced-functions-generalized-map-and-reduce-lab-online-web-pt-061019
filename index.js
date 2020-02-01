@@ -13,7 +13,7 @@ function reduce(arr, fn, startingPoint){
   let i = (!!startingPoint) ? 0 : 1;
   
    for (; i < arr.length; i++){
-    t = func(arr[i], t)
+    t = fn(arr[i], t)
   }
   
 }
