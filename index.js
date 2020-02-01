@@ -15,4 +15,5 @@ function reduce(arr, fn, startingPoint){
    for (; i < arr.length; i++){
     t = func(arr[i], t)
   }
+  
 }
