@@ -4,5 +4,5 @@ function map(arr, fn){
   forEach(el => { 
     newArr.push(fn(el))
     return newArr;
-  }
+  })
 }
