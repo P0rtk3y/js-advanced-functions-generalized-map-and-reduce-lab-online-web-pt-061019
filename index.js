@@ -10,7 +10,7 @@ function map(arr, fn){
 function reduce(arr, fn, startingPoint){
   let updateStart = (!!startingPoint) ? startingPoint : arr[0];
   
-  let index = (!!startingPoint) ? 0 : 1;
+  let i = (!!startingPoint) ? 0 : 1;
   
    for (; i < arr.length; i++){
     t = func(arr[i], t)
